@@ -58,3 +58,8 @@ KVConnectorFactory.register_connector(
     "MooncakeStoreConnector",
     "vllm.distributed.kv_transfer.kv_connector.mooncake_store_connector",
     "MooncakeStoreConnector")
+
+KVConnectorFactory.register_connector(
+    "DADIConnector",
+    "vllm.distributed.kv_transfer.kv_connector.dadi_connector",
+    "DADIConnector")
